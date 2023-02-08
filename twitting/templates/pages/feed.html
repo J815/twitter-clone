@@ -1,0 +1,11 @@
+{% extends './index.html' %}
+
+
+{% block content %}
+
+{% if request.user.is_authenticated %}
+    <div id="tweeter-feed"></div>
+{% else %}
+    <div id="tweeter"></div>
+{% endif %}
+{% endblock content %}

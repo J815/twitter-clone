@@ -1,0 +1,10 @@
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="mx-auto btn btn-primary">
+        {% if btn_label %}
+         {{btn_label}}
+         {% else %}save
+          {% endif %}
+    </button>
+</form>

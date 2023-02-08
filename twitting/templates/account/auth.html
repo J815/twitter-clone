@@ -1,0 +1,12 @@
+{% extends "../pages/index.html" %}
+
+
+{% block content %}
+<div class="col-10 col-md-4 mx-auto my-5">
+    <h1>{{ title }}</h1>
+    {% if description %}
+    <p>{{ description }} </p>
+    {% endif %}
+    {% include "Parts/form.html" with form=form btn_label=btn_label %}
+</div>
+{% endblock content %}
