@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-g)7%nogh8_72metgx3kqnjxf7k(2mj0w!!=d0o8a&1ynm##pwx
 DEBUG = True
 
 
+X_FRAME_OPTIONS = '*'
+
 ALLOWED_HOSTS = ['localhost']
 
 LOGIN_URL ="/login"
