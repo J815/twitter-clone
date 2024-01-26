@@ -1,14 +1,14 @@
 {
   "builds" : [
     {
-      "src": "twitting/twitting/wsgi.py",
+      "src": "twitting/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "twitting/twitting/wsgi.py"
+      "dest": "twitting/wsgi.py"
     }
   ]
 }
