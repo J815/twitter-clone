@@ -28,7 +28,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = '*'
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '.vercel.app']
 
 LOGIN_URL ="/login"
 
