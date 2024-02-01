@@ -28,7 +28,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = '*'
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1', 'twitter-clone-p36l.onrender.com']
 
 
 

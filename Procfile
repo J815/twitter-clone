@@ -1,1 +1,1 @@
-web: gunicorn twitting.wsgi --log-file -
+web: gunicorn twitting.twitting.wsgi --log-file -
