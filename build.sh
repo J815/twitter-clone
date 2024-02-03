@@ -8,7 +8,7 @@ cd twitting
 echo "migrate "
 python manage.py migrate 
 
-if ![[ -z $CREATE_SUPERUSER ]];
+if [[ -z $CREATE_SUPERUSER ]];
 then
    echo "create superuser "
    python manage.py createsuperuser --no-input
