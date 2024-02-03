@@ -1,5 +1,6 @@
 set -o errexit
-# pip install -r requirements.txt
+echo "install requirements.txt"
+pip install -r requirements.txt
 echo "change directory"
 cd twitting
 echo "migrate "
