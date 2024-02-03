@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+tu#!/usr/bin/env bash
 set -e
 set -x
 echo "install requirements.txt"
@@ -8,8 +8,8 @@ cd twitting
 echo "migrate "
 python manage.py migrate 
 
-# if [[ $CREATE_SUPERUSER ]];
-# then
-echo "create superuser "
-python manage.py createsuperuser --no-input
-# fi
+if [[ $CREATE_SUPERUSER ]];
+then
+   echo "create superuser "
+   python manage.py createsuperuser --no-input
+fi
